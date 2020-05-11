@@ -78,6 +78,17 @@ QString SliceSelectionOperator::id() const
 
 //=============================================================================================================
 /**
+* Returns the operator name
+*
+* @return the operator name
+*/
+QString SliceSelectionOperator::name() const
+{
+    return QString("Slice Selection");
+}
+
+//=============================================================================================================
+/**
 * Evaluates the operator - Physics happens here
 * @return 0 when successful, otherwise the error code
 */

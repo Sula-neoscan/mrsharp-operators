@@ -64,6 +64,8 @@ public:
 
     virtual QString id() const override;
 
+    QString name() const override;
+
     virtual int eval() override;
 };
 

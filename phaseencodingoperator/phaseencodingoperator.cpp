@@ -78,6 +78,17 @@ QString PhaseEncodingOperator::id() const
 
 //=============================================================================================================
 /**
+* Returns the operator name
+*
+* @return the operator name
+*/
+QString PhaseEncodingOperator::name() const
+{
+    return QString("Phase Encoding");
+}
+
+//=============================================================================================================
+/**
 * Evaluates the operator - Physics happens here
 * @return 0 when successful, otherwise the error code
 */
